@@ -49,5 +49,7 @@ router.route("/chefs/:mealName")
 
 
 
-
+router.route('/fileupload/:username').post((req,res)=>{
+    chefControllers.saveimage(req,res)
+})
 module.exports.router=router

@@ -15,7 +15,7 @@
 					<p ng-click="signup()" id="logintosignup">you don't have an account ? click Me to SignUp </p>
 			</div>
 			<div ng-show="state" id="hiddenlogin">
-					<img class="test" src="{{chefName.imgUrl}}" width="200" height="150">
+					<img class="test" ng-src="{{'./uploads/'+chefName.username+'.jpg'}}" width="200" height="150">
 					<span class="test">Chef Name:{{chefName.username}}</span><br>
 					<span class="test"> Location:{{chefName.location}}</span><br>
 					<span class="test"> Phone Num:{{chefName.phoneNumber}}</span><br>
