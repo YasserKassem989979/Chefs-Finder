@@ -267,4 +267,8 @@ app.directive('ngFiles', ['$parse', function ($parse) {
 
 
 	 }
-});
+})
+
+
+
+
